@@ -27,7 +27,8 @@ export const ConfigPanel: React.FC<ConfigPanelProps> = ({ config, onChange }) =>
           onChange={(e) => handleChange('modelName', e.target.value)}
           className="bg-slate-800 border border-slate-700 rounded-lg p-2.5 text-sm text-white focus:ring-2 focus:ring-indigo-500 focus:outline-none"
         >
-          <option value="gemini-2.5-flash">Gemini 2.5 Flash</option>
+          <option value="gemini-3.8-flash">Gemini 3.8 Flash</option>
+          <option value="gemini-2.0-flash">Gemini 2.0 Flash</option>
           <option value="gemini-1.5-flash">Gemini 1.5 Flash</option>
           <option value="gemini-1.5-pro">Gemini 1.5 Pro</option>
         </select>
